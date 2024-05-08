@@ -84,9 +84,6 @@ nav {
     height: max-content;
 }
 
-.animated{
-    animation: imageAnimate 2s ease-in-out infinite alternate-reverse both;
-}
     
 .logo{
     font-size: 2rem;
@@ -234,11 +231,9 @@ nav {
 }
 
 
-@keyframes imageAnimate {
-    0% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: translateY(-10px);
+
+.swiper-slide{
+    img{
+        filter: brightness(0);
     }
 }
